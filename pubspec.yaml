@@ -1,0 +1,25 @@
+name: just_audio_assets
+description: just_audio assets issue
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_session: ^0.0.10
+  just_audio: 0.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/beep.mp3
